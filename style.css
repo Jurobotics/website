@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  @media screen and (max-width: 731px) {
+    .logo a img:hover {
+      transform: scale(1.2) rotate(5deg) !important;
+    }
+  }
+
+  .container {
+      width: 90%;
+      padding: 17px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+  }
+
+  .logo a img {
+    width: 100%;
+    transition: 0.2s;
+  }
+
+  .logo a img:hover {
+    transform: scale(1.5) rotate(5deg);
+    transition: 0.2s;
+  }
+
+  header {
+    display: flex;
+    padding: 17px;
+    background: lightgrey;
+    border-radius: 0 0 1rem 1rem;
+
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text {
+    width: 10rem;
+  }
+
+  .button {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    padding: 12px 17px;
+    border-radius: 10px;
+    background: #ee7a1a8c;
+    transition: 0.5s;
+  }
+
+  .button:hover {
+    background: #ee7a1a;
+    transition: 0.5s;
+  }
