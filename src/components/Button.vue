@@ -21,10 +21,11 @@ export default {
   padding: 12px 17px;
   border-radius: 10px;
   background: #ee7a1a8c;
-  transition: 0.5s;
+  transition: 0.25s;
 }
 :hover {
   background: #ee7a1a;
+  color: #000 !important;
   transition: 0.5s;
 }
 </style>
