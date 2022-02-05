@@ -1,7 +1,8 @@
 <template>
-  <div class="container">
+  <div class="container" style="margin-bottom: 0">
     <h1>Impressum</h1>
     <p>VERANTWORTLICH FÜR DEN INHALT Jurobotics</p>
+    <br />
     <p>
       Inhaber: Hamza Huber <br />
       Heinrich-Weitz Str. 34<br />
@@ -15,6 +16,8 @@
       Dieses Impressum gilt auch für die Instagramseite
       <a href="https://www.instagram.com/jurobotics/">https://www.instagram.com/jurobotics/</a>
     </p>
+  </div>
+  <div class="container">
     <h2>Disclaimer / Haftungsausschluss</h2>
     <p>
       Online-Streitbeilegung gemäß Art. 14 Abs. 1 ODR-Verordnung: Die Europäische Kommission stellt

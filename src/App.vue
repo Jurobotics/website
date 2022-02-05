@@ -16,7 +16,20 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: rgba(53, 53, 53, 0.1);
 }
 
 @media screen and (max-width: 731px) {
@@ -26,8 +39,15 @@ export default {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   padding: 17px;
+  box-shadow: 8px 8px 15px 7px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  background: #fff;
 }
 
 .logo {
@@ -47,19 +67,5 @@ export default {
 .logo a img:hover {
   transform: scale(1.5) rotate(5deg);
   transition: 0.2s;
-}
-
-header {
-  display: flex;
-  padding: 17px;
-  background: lightgrey;
-  border-radius: 0 0 1rem 1rem;
-
-  justify-content: space-between;
-  align-items: center;
-}
-
-.text {
-  width: 10rem;
 }
 </style>
